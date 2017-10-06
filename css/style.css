@@ -26,7 +26,7 @@ section p {
 }
 
 header {
-  background-color: lavender;
+  /* background-color: lavender; */
   min-height: 10vh;
 }
 
@@ -72,5 +72,21 @@ header {
     font-size: 3.5em;
     background-color: black;
   }
+}
+
+@media screen and (max-width: 576px) {
+  #blue, #red, #yellow, #green {
+    min-height: 100vh;
+    padding-top: 25vh;
+  }
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+nav {
+  background-color: rgb(28, 25, 179);
 }
 

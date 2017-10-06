@@ -14,10 +14,45 @@
   </head>
   <body>
     <header class="fixed-top container-fluid">
-      <a href="#blue">blauw</a>
-      <a href="#red">rood</a>
-      <a href="#yellow">geel</a>
-      <a href="#green">groen</a>
+      <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#blue">blauw</a>
+            <a class="nav-item nav-link" href="#red">rood</a>
+            <a class="nav-item nav-link" href="#yellow">geel</a>
+            <a class="nav-item nav-link disabled" href="#green">groen</a>
+        </div> 
+      </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Introdagen Texel</a>
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-toggle="collapse" 
+                  data-target="#hamburger" 
+                  aria-controls="hamburger" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="hamburger">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#blue">blauw</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#red">rood</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#yellow">geel</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#green">groen</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+           
     </header>
     <main class="container">
       <article id="blue" class="row">
