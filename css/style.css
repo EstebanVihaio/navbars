@@ -5,7 +5,7 @@
 
 #blue, #red, #yellow, #green {
   min-height: 100vh;
-  padding-top: 11vh;
+  padding-top: 18vh;
 }
 
 img {
@@ -74,12 +74,6 @@ header {
   }
 }
 
-@media screen and (max-width: 576px) {
-  #blue, #red, #yellow, #green {
-    min-height: 100vh;
-    padding-top: 25vh;
-  }
-}
 
 .container-fluid {
   padding-right: 0px;
@@ -88,5 +82,10 @@ header {
 
 nav {
   background-color: rgb(28, 25, 179);
+}
+
+[src="./images/texel.png"] {
+  width: 50px;
+  height: 50px;
 }
 
